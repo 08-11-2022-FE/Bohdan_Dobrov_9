@@ -1,0 +1,304 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #FFFFFF;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    width: 200px;
+    height: 32px;
+    margin: 24px 0;
+}
+
+.navigation {
+    display: inline-block;
+    margin:0 198px;
+    font-size: 0;
+}
+
+.navigation ul {
+    width: 352px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+.navigation a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+}
+
+.navigation a:hover {
+    color: #FF9900;
+}
+
+.authorisation {
+    display: inline-block;
+    width: 252px;
+}
+
+button {
+    width: 110px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.sign-in {
+    border: 1px solid #BCD0E5;
+    color: #2F281E;
+    background-color: #FFFFFF;
+    margin-right: 32px;
+}
+
+.sign-up {
+    background-color: #FF9900;
+    border: none;
+    color: #FFFFFF;
+}
+
+.introduction {
+    margin-top: 70px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.get-started {
+    width: 556px;
+    height: 495px;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.get-started h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    width: 500px;
+    margin-top: 97px;
+}
+
+.get-started p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.get-started button {
+    margin-top: 20px;
+    background-color: #FF9900;
+    border: none;
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    font-weight: 700;
+}
+
+.company-image {
+    display: inline-block;
+    font-size: 0;
+}
+
+.company-image img {
+    vertical-align: middle;
+}
+
+/* Extra Weather Fortcast */
+
+.main-weather {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 900px;
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    color:#FFFFFF;
+}
+
+.weather-start {
+    display: inline-block;
+    font-size: 0;
+    margin: 35px 0 37px 110px;
+}
+
+.weather-start p {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.weather-start img {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.weather-table {
+    width: 1166px;
+    height: 588px;
+    margin-left: 110px;
+    border: 2px solid #FFFFFF;
+    font-size: 0;
+}
+
+.weather-table li {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.weather-table li p {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.lisbon {
+    background: #6dc1ec;
+    border: 2px solid #FFFFFF;
+    width: 50%;
+    height: 25%;
+}
+
+.paris {
+    background: #33CCCC;
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+}
+
+.belgrade {
+    background: #996699;
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+}
+
+.venice {
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #C24747;
+}
+
+.tel-avive {
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #E2674A;
+}
+
+.cair {
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #FFCC66;
+}
+
+.new-york {
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #99CC99;
+}
+
+.new-delhi {
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #669999;
+}
+
+.san-francisco {
+    width: 50%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #CC6699;
+}
+
+.tokyo {
+    width: 25%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #339966;
+}
+
+.sydney {
+    width: 100%;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    background: #666699;
+}
+
+.city {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.degree-inline {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.degree-inline p {
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.degree-inline img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 11px;
+}
+
+.tokyo img {
+    margin: 13.5px 0 13.5px 5px;
+}
+
+.footer {
+    margin: 35px 0 0 110px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.weather-opacity:hover {
+    opacity: 0.7;
+}
+
+.weather {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.weather h2 {
+    margin-bottom: 50px;
+}
