@@ -290,8 +290,12 @@ button {
     line-height: 19px;
 }
 
-.weather-opacity:hover {
-    opacity: 0.7;
+.weather-table:hover .weather-opacity {
+    opacity: 0.6;
+}
+
+.weather-table  .weather-opacity:hover {
+    opacity: 1;
 }
 
 .weather {
